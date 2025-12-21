@@ -19,6 +19,8 @@ model = load_model()
 # Preprocess image
 # ---------------------------
 def preprocess_image(image):
+    # Convert to RGB to remove alpha channel (fixes 4-channel images)
+    image = image.convert('RGB')
     image = image.resize((128, 128))  # MUST match your training size
     img_array = tf.keras.preprocessing.image.img_to_array(image)
     img_array = img_array / 255.0      # normalize
