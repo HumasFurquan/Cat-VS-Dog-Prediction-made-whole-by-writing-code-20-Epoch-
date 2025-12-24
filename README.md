@@ -113,7 +113,7 @@ Upload Interface	Prediction Result
 ## ✅ Usage
 
 - Upload any JPG, JPEG, or PNG image of a cat or dog.
-- Click Predict.
+- Click **Predict**.
 - View the result with confidence score.
 - Works on desktop and mobile devices.
 
@@ -121,10 +121,10 @@ Upload Interface	Prediction Result
 
 ## 💡 Future Improvements
 
-- Add video classification (live webcam feed).
-- Increase dataset size or use pre-trained models for higher accuracy.
-- Show confidence percentage and class probabilities in a graph.
-- Add data augmentation during training to reduce overfitting.
+- Add **video classification** (live webcam feed).
+- Increase **dataset size** or use **pre-trained models** for higher accuracy.
+- Show **confidence percentage** and class probabilities in a graph.
+- Add **data augmentation** during training to reduce overfitting.
 
 ---
 
@@ -139,4 +139,4 @@ Upload Interface	Prediction Result
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
