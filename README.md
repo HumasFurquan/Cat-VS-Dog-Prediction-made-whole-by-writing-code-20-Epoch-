@@ -12,6 +12,14 @@ Clicking the link will take you directly to the landing page. Using this website
 
 ---
 
+## 📸 Screenshots
+
+| Upload Image | Prediction Result |
+|-------------|------------------|
+| ![Upload](screenshots/upload.jpg) | ![Prediction](screenshots/prediction.jpg) |
+
+---
+
 ## 📝 Project Description
 
 This project is a **real-time Cat vs Dog image classifier** built using **Python**, **TensorFlow/Keras**, and **Streamlit**.  
@@ -123,14 +131,6 @@ streamlit run app.py
 - **Output**: 1 neuron with sigmoid activation (0 = Cat, 1 = Dog)
 - **Training**: 10 epochs on Kaggle Dogs vs Cats dataset
 - **Accuracy**: ~90% on test images
-
----
-
-## 📸 Screenshots
-
-| Upload Image | Prediction Result |
-|-------------|------------------|
-| ![Upload](screenshots/upload.jpg) | ![Prediction](screenshots/prediction.jpg) |
 
 ---
 
