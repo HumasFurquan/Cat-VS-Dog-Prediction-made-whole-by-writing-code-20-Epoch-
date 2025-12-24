@@ -75,7 +75,6 @@ Key features:
 - **NumPy** – numerical operations
 - **Pillow (PIL)** – image processing
 - **Streamlit** – web app deployment
-- **OpenCV** – optional image preprocessing
 
 ---
 
@@ -84,10 +83,10 @@ Key features:
 ```
 cat-dog-classifier/
 │
-├── app.py # Streamlit web app
-├── cat_dog_model.keras # Trained CNN model
-├── requirements.txt # Python dependencies
-├── screenshots/ # App screenshots
+├── app.py    # Streamlit web app
+├── cat_dog_model.keras    # Trained CNN model
+├── requirements.txt    # Python dependencies
+├── screenshots/    # App screenshots
 │ ├── upload.png
 │ └── prediction.png
 └── README.md
@@ -129,7 +128,7 @@ streamlit run app.py
 - **Architecture**: Simple CNN (3 Conv2D + MaxPooling layers, Dense output)
 - **Input Shape**: 128x128 RGB images
 - **Output**: 1 neuron with sigmoid activation (0 = Cat, 1 = Dog)
-- **Training**: 10 epochs on Kaggle Dogs vs Cats dataset
+- **Training**: 20 epochs on Kaggle Dogs vs Cats dataset
 - **Accuracy**: ~90% on test images
 
 ---
@@ -148,7 +147,7 @@ streamlit run app.py
 
 - Upload any JPG, JPEG, or PNG image of a cat or dog.
 - Click **Predict**.
-- View the result with confidence score.
+- View the result.
 - Works on desktop and mobile devices.
 
 ---
