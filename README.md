@@ -26,6 +26,40 @@ Key features:
 
 ---
 
+## 🔄 Machine Learning Pipeline
+
+1. Image uploaded via Streamlit UI
+2. Image converted to RGB and resized to 128×128
+3. Pixel values normalized (0–1)
+4. Image passed through trained CNN model
+5. Sigmoid output used for binary classification
+6. Result displayed with label (Cat / Dog)
+
+---
+
+## 📊 Dataset
+
+- **Source**: Kaggle – Dogs vs Cats Dataset
+- **Total Images**: 25,000
+- **Classes**: Cat, Dog
+- **Image Format**: JPG
+- **Preprocessing**:
+  - Resized to 128×128
+  - Normalized pixel values
+  - RGB channel enforced
+
+---
+
+## 🚀 Deployment
+
+- **Platform**: Streamlit Community Cloud
+- **Framework**: Streamlit
+- **Model Format**: `.keras`
+- **Hosting**: GitHub → Streamlit Cloud CI/CD
+- **URL**: https://catxdog-classifier.streamlit.app/
+
+---
+
 ## 🛠 Technologies Used
 
 - **Python 3.12**
@@ -93,11 +127,20 @@ streamlit run app.py
 ---
 
 ## 📸 Screenshots
-Upload Interface	Prediction Result
 
-	
+| Upload Image | Prediction Result |
+|-------------|------------------|
+| ![Upload](screenshots/upload.png) | ![Prediction](screenshots/prediction.png) |
 
-(Add screenshots in the screenshots/ folder for clarity)
+---
+
+## 📱 Mobile Support
+
+- Fully responsive UI
+- Works on Android and iOS browsers
+- Users can:
+  - Upload images
+  - Click photos directly using mobile camera
 
 ---
 
@@ -107,6 +150,16 @@ Upload Interface	Prediction Result
 - Click **Predict**.
 - View the result with confidence score.
 - Works on desktop and mobile devices.
+
+---
+
+## ⚠️ Limitations
+
+- Model may struggle with:
+  - Low-resolution images
+  - Mixed animals in one image
+  - Non-realistic drawings
+- Predictions depend on lighting and image quality
 
 ---
 
