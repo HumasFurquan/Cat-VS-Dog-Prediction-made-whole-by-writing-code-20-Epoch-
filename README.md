@@ -137,6 +137,6 @@ Upload Interface	Prediction Result
 
 ---
 
-I can also make a **version with clickable badges for Streamlit, Python, TensorFlow, GitHub stars**, and a more **eye-catching landing section** for your GitHub page, like a professional project portfolio.  
+## 📄 License
 
-Do you want me to make that upgraded README?
+This project is licensed under the MIT License.
