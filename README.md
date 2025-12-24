@@ -183,6 +183,5 @@ streamlit run app.py
 ---
 
 ## 📄 License
-- **License**: Provided by Kaggle for research and educational use
 
 This project is licensed under the **MIT License**.
