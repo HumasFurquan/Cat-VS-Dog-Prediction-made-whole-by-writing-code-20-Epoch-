@@ -130,7 +130,7 @@ streamlit run app.py
 
 | Upload Image | Prediction Result |
 |-------------|------------------|
-| ![Upload](screenshots/upload.png) | ![Prediction](screenshots/prediction.png) |
+| ![Upload](screenshots/upload.jpg) | ![Prediction](screenshots/prediction.jpg) |
 
 ---
 
