@@ -66,6 +66,8 @@ Key features:
 - **Hosting**: GitHub → Streamlit Cloud CI/CD
 - **URL**: https://catxdog-classifier.streamlit.app/
 
+  - **Entry Point**: app.py
+
 ---
 
 ## 🛠 Technologies Used
@@ -181,5 +183,6 @@ streamlit run app.py
 ---
 
 ## 📄 License
+- **License**: Provided by Kaggle for research and educational use
 
 This project is licensed under the **MIT License**.
