@@ -1,9 +1,9 @@
 # 🐶🐱 Cat vs Dog Classifier
 
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
-![Status](https://img.shields.io/badge/Status-Live-success)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://catxdog-classifier.streamlit.app/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow)](https://catxdog-classifier.streamlit.app/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)](https://catxdog-classifier.streamlit.app/)
+[![Status](https://img.shields.io/badge/Status-Live-success)](https://catxdog-classifier.streamlit.app/)
 
 ## 🔗 Live Demo
 
