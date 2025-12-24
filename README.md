@@ -1,6 +1,9 @@
 # 🐶🐱 Cat vs Dog Classifier
 
-[![Streamlit App](https://img.shields.io/badge/Deployed-Streamlit-blue)](https://catxdog-classifier.streamlit.app/)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
+![Status](https://img.shields.io/badge/Status-Live-success)
 
 ## 🔗 Live Demo
 
