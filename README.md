@@ -62,3 +62,81 @@ Instagram/
 ```
 
 ---
+
+## ⚡ How to Run Locally
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/YourUsername/cat-dog-classifier.git
+cd cat-dog-classifier
+```
+
+2. **Create a virtual environment (optional but recommended)**
+```bash
+venv\Scripts\activate     # Windows
+source venv/bin/activate  # Linux / macOS
+```
+
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run the Streamlit app**
+```bash
+streamlit run app.py
+```
+
+5. **Open the provided URL in your browser (e.g., http://localhost:8501).**
+
+---
+
+## 📈 Model Info
+
+- **Architecture**: Simple CNN (3 Conv2D + MaxPooling layers, Dense output)
+- **Input Shape**: 128x128 RGB images
+- **Output**: 1 neuron with sigmoid activation (0 = Cat, 1 = Dog)
+- **Training**: 10 epochs on Kaggle Dogs vs Cats dataset
+- **Accuracy**: ~90% on test images
+
+---
+
+## 📸 Screenshots
+Upload Interface	Prediction Result
+
+	
+
+(Add screenshots in the screenshots/ folder for clarity)
+
+---
+
+## ✅ Usage
+
+- Upload any JPG, JPEG, or PNG image of a cat or dog.
+- Click Predict.
+- View the result with confidence score.
+- Works on desktop and mobile devices.
+
+---
+
+## 💡 Future Improvements
+
+- Add video classification (live webcam feed).
+- Increase dataset size or use pre-trained models for higher accuracy.
+- Show confidence percentage and class probabilities in a graph.
+- Add data augmentation during training to reduce overfitting.
+
+---
+
+## 👨‍💻 Author
+
+**Humas Furquan**
+
+* GitHub: [https://github.com/HumasFurquan](https://github.com/HumasFurquan)
+* LinkedIn: [https://www.linkedin.com/in/humas-furquan-7b2961216](https://www.linkedin.com/in/humas-furquan-7b2961216)
+
+---
+
+I can also make a **version with clickable badges for Streamlit, Python, TensorFlow, GitHub stars**, and a more **eye-catching landing section** for your GitHub page, like a professional project portfolio.  
+
+Do you want me to make that upgraded README?
