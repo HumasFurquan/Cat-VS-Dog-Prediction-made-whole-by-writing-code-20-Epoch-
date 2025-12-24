@@ -37,26 +37,14 @@ Key features:
 ## 📂 Project Structure
 
 ```
-Instagram/
+cat-dog-classifier/
 │
-├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── middleware/
-│   ├── utils/
-│   ├── config/
-│   ├── index.js
-│   └── init.sql
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── hooks/
-│   │   ├── pages/
-│   │   └── services/
-│   ├── public/
-│   └── vite.config.js
-│
+├── app.py # Streamlit web app
+├── cat_dog_model.keras # Trained CNN model
+├── requirements.txt # Python dependencies
+├── screenshots/ # App screenshots
+│ ├── upload.png
+│ └── prediction.png
 └── README.md
 
 ```
